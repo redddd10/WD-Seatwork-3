@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.header button a{
+    text-decoration: none;
+    color: black;
+}
+
+.designs{
+    text-align: center;
+}
+
+.one{
+    display: inline-block;
+    width: 1500px;
+    height: 80px;
+    background-color: black;
+}
+
+.two{
+    display: inline-block;
+    width: 1500px;
+    height: 80px;
+    background-color: black;
+}
+
+.three{
+    display: inline-block;
+    width: 1500px;
+    height: 80px;
+    background-color: black;
+}
+
+.four{
+    display: inline-block;
+    width: 1500px;
+    height: 80px;
+    background-color: black;
+}
+
+.five{
+    display: inline-block;
+    width: 1500px;
+    height: 80px;
+    background-color: black;
+}
