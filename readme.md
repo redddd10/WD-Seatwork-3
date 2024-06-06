@@ -8,19 +8,17 @@
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+
+  <h3 align="center">WD-SEATWORK-3</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Static and Animated Headers and Footers.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+
+![](https://visit-counter.vercel.app/counter.png?page=redddd10/WD-Seatwork-3)
 
 ---
 
@@ -55,15 +53,10 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
+
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project aims to check the skills of the student in creating static and animated headers and footers using html and css.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
