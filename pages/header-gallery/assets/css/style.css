@@ -4,59 +4,120 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 500vh;
+    width: 100vw;
+  }
+
 .header{
-    padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.header button{
-    padding: 5px;
-    font-size: 20px;
-}
-
-.header button a{
-    text-decoration: none;
-    color: black;
 }
 
 .designs{
-    text-align: center;
+    padding-left: 250px;
+    width: max;
+    height: 2000px;
+    background-color: beige;
 }
 
 .one{
-    display: inline-block;
-    width: 1500px;
-    height: 80px;
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1600px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.pokeball img{
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.one .options{
+    padding-right: 5px;
+}
+
+.options button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border-style: none;
+    height: 70px;
+    font-size: 45px;
+    background-color: white;
 }
 
 .two{
-    display: inline-block;
-    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1600px;
+    height: 100px;
+    background-color: indigo;
+}
+
+.tetrislogo img{
+    width: 120px;
     height: 80px;
-    background-color: black;
+}
+
+.mb{
+    font-size: 30px;
+    background-color: orchid;
+}
+
+.ab{
+    font-size: 30px;
+    background-color: green;
+}
+
+.dl{
+    padding: 5px;
+    font-size: 50px;
+    border: 2px double white;
+    background-color: cornflowerblue;
+    height: 70px;
+    border-radius: 2.5%;
 }
 
 .three{
-    display: inline-block;
-    width: 1500px;
-    height: 80px;
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1600px;
+    height: 100px;
+    background-color: crimson;
 }
 
-.four{
-    display: inline-block;
-    width: 1500px;
-    height: 80px;
-    background-color: black;
+.three .logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 500px;
 }
 
-.five{
-    display: inline-block;
-    width: 1500px;
-    height: 80px;
-    background-color: black;
+.logo img{
+    background-color: white;
+    width: 160px;
+    height: 100px;
 }
 
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 500px;
+}
+
+.menu button{
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    font-family: fantasy;
+}
