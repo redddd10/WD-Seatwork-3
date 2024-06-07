@@ -233,6 +233,7 @@ body {
     animation: bounce 0.5s;
 }
 
+
 @keyframes bounce {
     70% { transform:translateY(0%); }
     80% { transform:translateY(-15%); }
