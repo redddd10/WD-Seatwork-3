@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
  
-    <img src="./assets/img/tam.png" alt="Nyebe" width="130" height="100">
+    <img src="/assets/img/tam.png" alt="Nyebe" width="130" height="100">
   </a>
 
   <h3 align="center">WD-SEATWORK-3</h3>
