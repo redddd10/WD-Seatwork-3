@@ -11,15 +11,27 @@ body {
     width: 100vw;
   }
 
-.header{
-    display: flex;
-    justify-content: space-between;
+
+.header button{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 600px;
+}
+
+.header button:hover{
+    cursor: grab;
+}
+
+.header h1{
+    font-size: 90px;
 }
 
 .designs{
     padding-left: 250px;
     width: max;
-    height: 2000px;
+    height: 950px;
     background-color: beige;
 }
 
@@ -69,12 +81,16 @@ body {
 }
 
 .mb{
+    width: 200px;
+    height: 75px;
     font-size: 30px;
     background-color: orchid;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .ab{
+    width: 120px;
+    height: 75px;
     font-size: 30px;
     background-color: green;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -260,4 +276,59 @@ body {
     height: 90px;
     background: #222;
     border-radius: 50%;
+}
+
+.logo img:hover{
+    animation: hithere 1s ease infinite;
   }
+
+@keyframes hithere {
+    30% { transform: scale(1.2); }
+    40%, 60% { transform: rotate(-20deg) scale(1.2); }
+    50% { transform: rotate(20deg) scale(1.2); }
+    70% { transform: rotate(0deg) scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+.menu button:hover{
+    background-color: red;
+    height: 100px;
+}
+
+.qr:hover {
+    animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    from { transform: scale(0.8); }
+    to { transform: scale(1.2); }
+}
+
+.choice .searchbar:hover{
+    cursor: text;
+}
+
+.choice button:hover{
+    cursor: pointer;
+}
+
+.identity img:hover{
+    cursor: pointer;
+}
+
+.itam img:hover{
+    animation: flash 500ms ease infinite alternate;
+}
+
+@keyframes flash {
+      from { opacity: 1; }	
+      to { opacity: 0; }
+}
+
+.motto h2:hover{
+    font-size: 75px;
+}
+
+.borg img:hover{
+    cursor: help;
+}
