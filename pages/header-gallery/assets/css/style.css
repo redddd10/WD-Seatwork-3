@@ -313,7 +313,7 @@ body {
 }
 
 .identity img:hover{
-    cursor: pointer;
+    animation: pulse 1s infinite ease-in-out alternate;
 }
 
 .itam img:hover{
