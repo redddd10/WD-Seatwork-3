@@ -53,17 +53,23 @@ body {
 }
 
 .one .options{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
     padding-right: 5px;
+    height: 100px;
+    background-color: crimson;
 }
 
 .options button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: underline tomato;
+    text-decoration: underline white;
     padding: 5px;
     border-style: none;
     height: 70px;
     font-size: 45px;
     background-color: transparent;
+    margin-right: 20px;
 }
 
 .two{
@@ -85,6 +91,7 @@ body {
     height: 75px;
     font-size: 30px;
     background-color: orchid;
+    border-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -93,6 +100,7 @@ body {
     height: 75px;
     font-size: 30px;
     background-color: green;
+    border-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 

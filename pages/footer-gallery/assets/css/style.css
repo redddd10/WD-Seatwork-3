@@ -34,3 +34,12 @@ body {
     height: 950px;
     background-color: beige;
 }
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1600px;
+    height: 200px;
+    background-color: gray;
+}
