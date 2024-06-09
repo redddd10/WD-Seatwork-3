@@ -24,15 +24,28 @@ body {
     cursor: grab;
 }
 
+.maintitle{
+    color: black;
+}
+
+h2{
+    color: white;
+}
+
+.designs h1{
+    color: white;
+}
+
 .header h1{
     font-size: 90px;
+    color: black;
 }
 
 .designs{
     padding-left: 250px;
     width: max;
     height: 950px;
-    background-color: beige;
+    background-color: black;
 }
 
 .one{

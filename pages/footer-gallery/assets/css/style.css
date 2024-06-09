@@ -26,13 +26,22 @@ body {
 
 .header h1{
     font-size: 90px;
+    color: black;
+}
+
+.designs h1{
+    color: white;
+}
+
+.designs h2{
+    color: white;
 }
 
 .designs{
     padding-left: 250px;
     width: max;
     height: 950px;
-    background-color: beige;
+    background-color: black;
 }
 
 .one{
