@@ -7,7 +7,7 @@
 .main{
     width: max;
     height: 1000px;
-    background-image: url(/assets/img/sw3bg.jpg);
+    background-image: url(/assets/img/bg.jpg);
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -19,8 +19,7 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .mainleft{
@@ -56,5 +55,9 @@ p{
     border-style: none;
     background-color: black;
     padding: 10px;
-    border-radius: 4%;
+    border-radius: 2.5%;
+}
+
+.mainright button:hover{
+    transform: scale(1.5);
 }

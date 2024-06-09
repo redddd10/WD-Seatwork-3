@@ -45,10 +45,47 @@ body {
 }
 
 .one{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     width: 1600px;
     height: 200px;
     background-color: gray;
+}
+
+.one img{
+    
+    height: 100px;
+}
+
+.onepic{
+    
+}
+
+.one h2{
+    color: black;
+}
+
+.onetop{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid black;
+}
+
+.onemid{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.onebot{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.onebot button{
+    padding-top: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border-style: none;
+    text-decoration: underline;
 }
