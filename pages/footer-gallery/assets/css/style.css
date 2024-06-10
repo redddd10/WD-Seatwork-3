@@ -50,7 +50,7 @@ body {
 .one{
     width: 1600px;
     height: 200px;
-    background-color: gray;
+    background-color: darkslategrey;
 }
 
 .one img{
@@ -70,6 +70,7 @@ body {
     padding-top: 10px;
     display: flex;
     justify-content: center;
+    background-color: firebrick;
     border-bottom: solid black;
 }
 
@@ -91,4 +92,38 @@ body {
     background-color: transparent;
     border-style: none;
     text-decoration: underline;
+}
+
+.two{
+    width: 1600px;
+    height: 450px;
+    background-image: url(/assets/img/bgtetris.jpg);
+    background-size: cover;
+}
+
+.tetrisup{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.tetrisup h2{
+    font-size: 40px;
+    color: orange;
+}
+
+.tetrisdown{
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.ig{
+    height: 50px;
+}
+
+.fb{
+    height: 5cqh;
 }

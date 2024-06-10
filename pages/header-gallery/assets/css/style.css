@@ -76,7 +76,7 @@ h2{
     padding-left: 10px;
     padding-right: 5px;
     height: 100px;
-    background-color: crimson;
+    background-color: firebrick;
 }
 
 .options button{
@@ -108,7 +108,7 @@ h2{
     width: 200px;
     height: 75px;
     font-size: 30px;
-    background-color: orchid;
+    background-color: darkorchid;
     border-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -121,6 +121,17 @@ h2{
     border-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.acb{
+    width: 170px;
+    height: 75px;
+    font-size: 30px;
+    background-color: orange;
+    border-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 
 .dl{
     padding: 5px;
