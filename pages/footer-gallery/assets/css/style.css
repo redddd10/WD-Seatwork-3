@@ -43,7 +43,7 @@ body {
 
 .designs{
     width: max;
-    height: 3000px;
+    height: 3400px;
     background-color: black;
 }
 
@@ -258,4 +258,85 @@ body {
     transform: matrix(1, -0.3, 0, 1, 0, 0);
 }
 
+.four{
+    width: 1600px;
+    height: 200px;
+    background-color: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.title{
+    width: 1600px;
+    height: 50px;
+    background-color: white;
+}
+
+.actual h2{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.actual{
+    width: 1600px;
+    height: 150px;
+    display: flex;
+    gap: 150px;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.actual p{
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.actual button{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: crimson;
+    background-color: white;
+    border: none;
+}
+
+.title img{
+    height: 50px;
+    margin-left: 100px;
+}
+
+.actual img{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+}
+
+
+
+.five{
+    width: 1600px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+
+.five img{
+    height: 200px;
+}
+
+.five .middle{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.five h2{
+    font-size: 40px;
+}
+
+.five p{
+    font-size: 20px;
+}
