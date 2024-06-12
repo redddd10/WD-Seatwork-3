@@ -43,7 +43,7 @@ body {
 
 .designs{
     width: max;
-    height: 2000px;
+    height: 3000px;
     background-color: black;
 }
 
@@ -94,6 +94,14 @@ body {
     text-decoration: underline;
 }
 
+.pkballfooter:hover{
+    transform: rotate(-30deg);
+}
+
+.onebuttons:hover{
+    cursor: help;
+}
+
 .two{
     width: 1600px;
     height: 450px;
@@ -112,6 +120,10 @@ body {
     color: orange;
 }
 
+.all:hover{
+    color: indigo;
+}
+
 .tetrisdown{
     padding-top: 170px;
     display: flex;
@@ -127,3 +139,123 @@ body {
 .fb{
     height: 5cqh;
 }
+
+.iga{
+    height: 50px;
+}
+
+.fba{
+    height: 5cqh;
+}
+
+.iga:hover{
+    scale: 1.5;
+}
+
+.fba:hover{
+    scale: 1.5;
+}
+
+.three{
+    width: 1600px;
+    height: 200px;
+    background-color: crimson;
+    display: flex;
+    padding-left: 200px;
+}
+
+.three .left{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    justify-content: flex-end;
+    font-family: fantasy;
+    color: crimson;
+    background-color: white;
+    margin-left: 70px;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}
+
+
+.three .right{
+    margin-left: 10px;
+    width: 500px;
+    height: 190px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.leftimg img{
+    height: 180px;
+}
+
+.right button{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    background-color: black;
+    border-style: none;
+    border-width: 5px;
+    border-style: double;
+    border-color: white;
+    border-radius: 3%;
+    font-family: fantasy;
+}
+
+
+.three .lefta{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    justify-content: flex-end;
+    font-family: fantasy;
+    color: crimson;
+    background-color: white;
+    margin-left: 70px;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+}
+
+
+.three .righta{
+    margin-left: 10px;
+    width: 500px;
+    height: 190px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.leftimga img{
+    height: 180px;
+}
+
+.righta button{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    background-color: black;
+    border-style: none;
+    border-width: 5px;
+    border-style: double;
+    border-color: white;
+    border-radius: 3%;
+    font-family: fantasy;
+}
+
+.lefta p:hover{
+    background-color: crimson;
+    color: white;
+}
+
+.righta button:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+

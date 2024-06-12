@@ -381,32 +381,22 @@ h2{
   }
 
 .mb:hover{
-    animation: bounce 0.5s;
+    transform: translate(0px, -50px);
 }
 
 .ab:hover{
-    animation: bounce 0.5s;
+    transform: translate(0px, -50px);
 }
 
 .acb:hover{
-    animation: bounce 0.5s;
+    transform: translate(0px, -50px);
 }
 
 
 .tetrislogo img:hover{
-    animation: bounce 0.5s;
+    transform: translate(0px, -50px);
 }
 
-
-@keyframes bounce {
-    70% { transform:translateY(0%); }
-    80% { transform:translateY(-15%); }
-    90% { transform:translateY(0%); }
-    95% { transform:translateY(-7%); }
-    97% { transform:translateY(0%); }
-    99% { transform:translateY(-3%); }
-    100% { transform:translateY(0); }
-}
 
 .dl:hover {
     background: linear-gradient(to right, rgb(22, 113, 202) 50%, transparent 50%);
