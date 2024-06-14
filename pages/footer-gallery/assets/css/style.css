@@ -103,7 +103,7 @@ body {
 .two{
     width: 1600px;
     height: 450px;
-    background-image: url(/assets/img/bgtetris.jpg);
+    background-image: url(../../../../assets/img/bgtetris.jpg);
     background-size: cover;
 }
 
