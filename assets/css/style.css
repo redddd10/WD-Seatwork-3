@@ -7,7 +7,7 @@
 .main{
     width: max;
     height: 1000px;
-    background-image: url(/assets/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -23,7 +23,7 @@ body{
 }
 
 .mainleft{
-    padding-left: 200px;
+    padding-left: 125px;
 }
 
 h2{
