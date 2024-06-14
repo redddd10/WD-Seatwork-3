@@ -276,7 +276,21 @@ body {
     text-decoration-color: white;
 }
 
+.actualanim h2{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 .actual{
+    width: 1600px;
+    height: 150px;
+    display: flex;
+    gap: 150px;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+.actualanim{
     width: 1600px;
     height: 150px;
     display: flex;
@@ -292,8 +306,27 @@ body {
     color: white;
 }
 
+.actualanim p{
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+
 .actual button{
     margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: crimson;
+    background-color: white;
+    border: none;
+}
+
+.actualanim button{
+    margin-top: 30px;
     margin-left: 20px;
     font-size: 20px;
     padding: 5px;
@@ -314,6 +347,11 @@ body {
     height: 50px;
 }
 
+.actualanim img{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+}
 
 
 .five{
@@ -339,4 +377,47 @@ body {
 
 .five p{
     font-size: 20px;
+}
+
+.leftimga:hover{
+    transform: translate(15px);
+}
+
+.map:hover{
+    cursor: help;
+}
+
+.schoolname:hover{
+    text-decoration: underline 2px solid white;
+}
+
+.hyper:hover{
+    color: cornflowerblue;
+    text-decoration: underline 1px solid cornflowerblue;
+}
+
+.uniqlogo:hover{
+    transform: translate(1200px);
+}
+
+.actualanim h2:hover{
+    transform: scale(1.2);
+}
+
+.actualanim p:hover{
+    text-transform: uppercase;
+}
+
+.none:hover{
+    text-transform: none;
+}
+
+.actualanim img:hover{
+    transform: rotateY(220deg);
+}
+
+.actualanim button:hover{
+    background: crimson;
+    color: white;
+    border: double 5px white;
 }
